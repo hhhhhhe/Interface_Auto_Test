@@ -2,51 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5ef921-0dcd-46a4-b5bf-a90fd02457e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/BasicAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/ExpectedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/IgnoreTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/groups/GroupOnMenthod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/groups/GroupsOnClass1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/groups/GroupsOnClass2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/groups/GroupsOnclass3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/paramter/DataProviderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/paramter/paramterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/suite/DependTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/suite/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/suite/PayTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testing/suite/SuiteConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startRedirect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startcookie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startheader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startpost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/startup1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/基本操作说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentreport_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记/mock的学习.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/BasicAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/ExpectedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/ExpectedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/IgnoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/IgnoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupOnMenthod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupOnMenthod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupsOnClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupsOnClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupsOnClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/groups/GroupsOnClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/multiThread/MultiThreadOnXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/multiThread/MultiThreadOnXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/paramter/DataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/paramter/DataProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/paramter/paramterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/paramter/paramterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/DependTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/DependTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/PayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/PayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/SuiteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testing/suite/SuiteConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/Groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/Groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/paramter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/paramter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/Chapter6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startRedirect.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startRedirect.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startcookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startcookie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startget.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startget.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startheader.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startheader.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startpost.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startpost.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/startup1.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/startup1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/基本操作说明" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/基本操作说明" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
@@ -72,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/chapter7/startget.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -107,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter7/startRedirect.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="100">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -308,7 +287,7 @@
       <workItem from="1596185578491" duration="1082000" />
       <workItem from="1596190298154" duration="1289000" />
       <workItem from="1596199056233" duration="1794000" />
-      <workItem from="1596201151999" duration="428000" />
+      <workItem from="1596201151999" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -345,7 +324,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33718000" />
+    <option name="totallyTimeSpent" value="34321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,14 +596,14 @@
     <entry file="file://$PROJECT_DIR$/chapter7/startget.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter7/startRedirect.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="100">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
