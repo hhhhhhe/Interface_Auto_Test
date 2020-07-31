@@ -1,0 +1,4 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+-p : 前面接协议 http / https
+-p : 后面接端口号
+-c : 后面接json的绝对路径或者是相对路径
