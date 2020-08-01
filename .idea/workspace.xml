@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5ef921-0dcd-46a4-b5bf-a90fd02457e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8/Cookie与Session.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8/http协议信息头.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookie/MyCookieForGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/appliction.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/target/classes/com/course/httpclient/demo/MyHttpClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter9/Chapter9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
@@ -38,24 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter7/startcookie.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter7/startheader.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter7/startRedirect.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -73,14 +52,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="24" column="35" selection-start-line="18" selection-start-column="7" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookie/MyCookieForGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/appliction.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -177,11 +177,13 @@
         <option value="$PROJECT_DIR$/chapter7/startRedirect.json" />
         <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookie/MyCookieForGet.java" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/resources/appliction.properties" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="851" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="850" />
     <option name="y" value="60" />
     <option name="width" value="990" />
     <option name="height" value="835" />
@@ -190,7 +192,84 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -229,7 +308,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyHttpClient.test1">
+  <component name="RunManager" selected="TestNG.MyCookieForGet">
+    <configuration name="MyCookieForGet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookie.MyCookieForGet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookieForGet.testGetCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookie.MyCookieForGet" />
+      <option name="METHOD_NAME" value="testGetCookie" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyHttpClient" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter9" />
       <extension name="coverage">
@@ -267,6 +381,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookieForGet" />
+        <item itemvalue="TestNG.MyCookieForGet.testGetCookie" />
         <item itemvalue="TestNG.MyHttpClient.test1" />
         <item itemvalue="TestNG.MyHttpClient" />
       </list>
@@ -309,43 +425,46 @@
       <workItem from="1596201151999" duration="1031000" />
       <workItem from="1596205874461" duration="1764000" />
       <workItem from="1596207721394" duration="602000" />
+      <workItem from="1596210254077" duration="1781000" />
+      <workItem from="1596214641539" duration="935000" />
+      <workItem from="1596215628341" duration="1135000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependTest - 2020.07.28 at 13h 20m 34s.xml">
-      <configuration name="DependTest" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 16m 45s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DependTest_test2 - 2020.07.28 at 13h 21m 09s.xml">
-      <configuration name="DependTest.test2" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 21m 21s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__软件测试_软件测试学习_Interface_Auto_Test_Interface_Auto_Test_Chapter5_src_main_resources_paramter_xml - 2020.07.28 at 13h 30m 40s.xml">
-      <configuration name="F:/软件测试/软件测试学习/Interface_Auto_Test/Interface_Auto_Test/Chapter5/src/main/resources/paramter.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2020.08.01 at 01h 22m 15s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest_testDataProvide - 2020.07.28 at 13h 42m 43s.xml">
-      <configuration name="DataProviderTest.testDataProvide" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 22m 22s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest_testDataProvide - 2020.07.28 at 13h 53m 37s.xml">
-      <configuration name="DataProviderTest.testDataProvide" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 26m 01s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest_test1 - 2020.07.28 at 13h 54m 19s.xml">
-      <configuration name="DataProviderTest.test1" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 26m 25s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest_test1 - 2020.07.28 at 13h 54m 44s.xml">
-      <configuration name="DataProviderTest.test1" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 26m 53s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyHttpClient - 2020.07.31 at 22h 57m 31s.xml">
-      <configuration name="MyHttpClient" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 29m 44s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyHttpClient - 2020.07.31 at 22h 58m 42s.xml">
-      <configuration name="MyHttpClient" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 31m 46s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyHttpClient_test1 - 2020.07.31 at 22h 59m 59s.xml">
-      <configuration name="MyHttpClient.test1" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet - 2020.08.01 at 01h 32m 39s.xml">
+      <configuration name="MyCookieForGet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36687000" />
+    <option name="totallyTimeSpent" value="40538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,8 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="48" width="792" height="668" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.38828337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -369,17 +487,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77017546" weight="0.765625" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77017546" weight="0.5366569" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49824563" weight="0.32697946" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49824563" weight="0.32551318" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49824563" weight="0.32697946" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49824563" weight="0.32551318" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30645162" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30498534" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.22982456" side_tool="true" weight="0.7889344" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49824563" weight="0.31524926" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49824563" weight="0.31231672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter7/startcookie.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="388">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
@@ -593,6 +711,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="35" selection-start-line="18" selection-start-column="7" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -635,10 +763,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/appliction.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookie/MyCookieForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
